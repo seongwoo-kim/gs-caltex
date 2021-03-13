@@ -1,0 +1,122 @@
+/* main */
+.page_sub_main{
+  padding-bottom:200px;
+}
+
+
+/* charging_explain */
+.charging_explain_img{
+  width:100%;
+    
+}
+.charging_explain_figcaption{
+  color:#000;
+  margin:18px 0 70px 0;
+  font-weight:500;
+  display:flex;
+  justify-content: space-between;
+  
+}
+.charging_explain_text{
+  display:flex;
+}
+
+.charging_explain_number{
+  background-color:#000000;
+  color:#fff;
+  font-size:14px;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  display:inline-flex;
+  justify-content: center;
+  align-items:center;
+  margin-right:9px;
+  flex-shrink: 0;
+}
+.charging_explain_detail{
+  word-break:keep-all;
+  display:inline-block;
+}
+.charging_explain_faq{
+  background-color:#000000;
+  color:#fff;
+  font-size:14px;
+  width:111px;
+  height:26px;
+  border-radius:5px;
+  font-weight:normal;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* toonbox */
+.charging_explain_img_toonbox{
+  border:3px solid #000;
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+  margin-top:30px;
+  
+}
+.charging_explain_img_toon_content{
+    display:flex;
+    margin-bottom:30px;   
+}
+.charging_explain_img_toon_content:nth-child(2) .charging_explain_toonbox_text{
+text-align:right;
+padding-right:50px;
+}
+
+.charging_explain_toonbox_text{
+  padding:100px 0 0 50px;
+  width:calc(100% - 308px);
+}
+
+.charging_explain_toon_img{
+  width:308px;
+}
+
+
+
+/* box3 */
+.charging_explain_order{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:80px;
+  position: relative;
+}
+.charging_explain_order_img{
+  width:265px;
+}
+.charging_explain_arrow {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.charging_explain_arrow > div{
+  width: 22px;
+  height: 3px;
+  background: #00aa9d;
+  border-radius: 4px;
+  
+}
+.charging_explain_arrow1{
+  transform: rotateZ(45deg);
+  
+}
+.charging_explain_arrow2{
+  transform: rotateZ(-45deg);
+  margin-top:11px;
+}
+
+.charging_explain_arrow.bottom_arrow{
+  transform: rotate(90deg) translateY(calc(-50% + 18px));
+  top: auto;
+  bottom: -47px;
+}
+
+
+/* box 4 */

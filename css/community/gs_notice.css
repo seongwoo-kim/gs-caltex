@@ -1,0 +1,13 @@
+.gs-notice{
+  margin:0 auto;
+}
+gs-notice_headline{
+  background-color:red;
+}
+
+gs-notice_headline_text{
+  font-size:16px;
+  color:#333130;
+  font-weight:700;
+  text-align:center;
+}
