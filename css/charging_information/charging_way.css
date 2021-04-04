@@ -111,6 +111,7 @@ padding-right:50px;
   transform: rotateZ(-45deg);
   margin-top:11px;
 }
+  
 
 .charging_explain_arrow.bottom_arrow{
   transform: rotate(90deg) translateY(calc(-50% + 18px));

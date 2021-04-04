@@ -24,6 +24,8 @@ input,button{
   background:transparent;
   -webkit-appearance:none; 
   appearance:none;
+  outline:0;
+  border:0;
 }
 img{
   vertical-align: top;
