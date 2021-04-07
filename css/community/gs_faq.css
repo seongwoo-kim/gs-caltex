@@ -14,7 +14,7 @@
     color:#666;
     padding:0 0 20px;
     cursor:pointer;
-    position: relative;
+    position:relative;
     text-align:center;
     
 }
@@ -61,12 +61,22 @@
 
 }
 .gs_faq_search_place{
-    width:750px;
+    width:100%;
+    max-width:750px;
     border:2px solid #d9d9d9;
     padding:20px 42px;
     border-radius:30px;
     display:flex;
     justify-content:space-between;
+
+}
+.gs_faq_search_place::before{
+    display:none;
+    content:"";
+}
+.gs_faq_search_place.active,
+.gs_faq_search_place{
+    
 
 }
 
@@ -95,18 +105,23 @@
     color:#000;
     font-weight:500;
     border-top:1px solid #666;
+    padding:25px 100px 25px 40px; 
 }
+
 .gs_faq_question > em{
     color:#099;
     font-size:20px;
+    padding-right:9px;
 }
 .gs_faq_asked{
     color:#666;
     font-size:18px;
+    padding:25px 100px 25px 40px;
 }
 .gs_faq_asked > em{
     color:#099;
     font-size:22px;
+    padding-right:9px;
 }
 .gs_faq_underline{
     display:flex;
